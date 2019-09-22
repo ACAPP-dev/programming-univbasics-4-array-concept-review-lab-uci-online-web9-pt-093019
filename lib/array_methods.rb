@@ -16,7 +16,7 @@ end
 def find_max_value(array)
   # Add your solution here
   # return array.max
-  array.lenth.times do |value1|
+  array.length.times do |value1|
     if array[value1] == array.max
       return array[value1]
     end
