@@ -3,15 +3,13 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
   array.length.times do |value1|
-  # if value_to_find = array.index[value]
-   #  return array.index[value]
-   # end
+  
   if array[value1] == value_to_find
     #puts array[value1]
     return [value1]
   end
     
-    #puts array[value1]
+   
   value1 += 1
 end
 end
