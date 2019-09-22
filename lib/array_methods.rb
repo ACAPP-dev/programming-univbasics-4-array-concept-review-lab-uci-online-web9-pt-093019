@@ -9,8 +9,8 @@ array.length.times do |value1|
      if array[value1] == value_to_find
       #puts array[value1]
       return value1
+      value =+1
   end
-  value +=1 
   end
 end
 end
