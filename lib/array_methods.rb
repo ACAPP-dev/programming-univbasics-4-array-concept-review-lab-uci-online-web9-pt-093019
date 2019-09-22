@@ -8,7 +8,6 @@ array.length.times do |value1|
       return value1
       value =+1
   end
-  end
 end
 end
 
