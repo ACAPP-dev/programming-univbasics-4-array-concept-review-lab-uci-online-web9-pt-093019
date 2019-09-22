@@ -8,7 +8,7 @@ array.length.times do |value1|
       return value1
       value =+1
   end
-puts nil 
+puts "nil"
 end
 
 end
