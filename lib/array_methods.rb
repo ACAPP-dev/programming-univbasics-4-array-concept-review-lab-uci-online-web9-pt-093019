@@ -2,11 +2,12 @@ array1 = [1,5,7,9,10]
 
 def find_element_index(array, value_to_find)
   # Add your solution here
-  array.times.length do |index|
+  array.times.length do |value1|
   # if value_to_find = array.index[value]
    #  return array.index[value]
    # end
-  puts array.index 
+  puts array.value1
+end
 end
 
 def find_max_value(array)
