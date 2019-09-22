@@ -8,7 +8,7 @@ def find_element_index(array, value_to_find)
    # end
   if value_to_find = array.index [value1]
     return value1
-  # end
+  end
     puts value1
   value1 += 1
 end
