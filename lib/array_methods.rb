@@ -26,7 +26,12 @@ end
 
 def find_min_value(array)
   # Add your solution here
-  return array.min
+  # return array.min
+  array.length.times do |value1|
+    if array[value1] == array.min
+      return array[value1]
+    end
+  end 
 end
 # find_element_index(array1, 700)
 # find_max_value(array1)
