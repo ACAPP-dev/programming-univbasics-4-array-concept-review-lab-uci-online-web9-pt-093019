@@ -8,8 +8,9 @@ array.length.times do |value1|
       return value1
       value =+1
   end
+puts nil 
 end
-puts nil
+
 end
 
 def find_max_value(array)
