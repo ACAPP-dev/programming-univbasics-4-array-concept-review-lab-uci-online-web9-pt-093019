@@ -6,10 +6,10 @@ def find_element_index(array, value_to_find)
   # if value_to_find = array.index[value]
    #  return array.index[value]
    # end
-  if value_to_find = array[value1]
+  #if value_to_find = array[value1]
     puts array.index
     # return array.index
-  end
+  # end
     # puts value1
   value1 += 1
 end
