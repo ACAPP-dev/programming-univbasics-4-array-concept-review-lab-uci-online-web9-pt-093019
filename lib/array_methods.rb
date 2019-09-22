@@ -3,7 +3,7 @@ array1 = [1,5,7,9,10]
 def find_element_index(array, value_to_find)
   # Add your solution here
 array.length.times do |value1|
-  if value1 == array.length
+  if value1 >= array.length
     puts nil
     return nil
   else
