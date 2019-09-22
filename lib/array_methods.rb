@@ -10,7 +10,7 @@ array.length.times do |value1|
   end
 
 end
-puts "nil"
+return nil
 end
 
 def find_max_value(array)
