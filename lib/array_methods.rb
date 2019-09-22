@@ -5,11 +5,12 @@ def find_element_index(array, value_to_find)
 array.length.times do |value1|
   if value1 == array.length
     return nil
+  else
+     if array[value1] == value_to_find
+      #puts array[value1]
+      return value1
   end
-  if array[value1] == value_to_find
-    #puts array[value1]
-    return value1
-    value +=1 
+  value +=1 
   end
 end
 end
