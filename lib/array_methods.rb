@@ -10,7 +10,7 @@ def find_element_index(array, value_to_find)
     
     # return array.index
   # end
-    # puts value1
+    puts value1
   value1 += 1
 end
 end
