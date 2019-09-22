@@ -3,16 +3,14 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
   array.length.times do |value1|
-  
+  if value1 = array.length
+    return nil
+  end
   if array[value1] == value_to_find
     #puts array[value1]
     return value1
-    value += 1
+    value +=1 
   end
-  return nil  
-   
-  
-end
 end
 
 def find_max_value(array)
