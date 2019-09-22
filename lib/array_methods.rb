@@ -1,4 +1,4 @@
-# array1 = [1,5,7,9,10]
+ array1 = [1,5,7,9,10]
 
 def find_element_index(array, value_to_find)
   # Add your solution here
@@ -15,10 +15,11 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  
+  puts array.max
 end
 
 def find_min_value(array)
   # Add your solution here
 end
 # find_element_index(array1, 700)
+find_max_value(array1)
