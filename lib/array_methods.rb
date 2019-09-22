@@ -1,4 +1,4 @@
- array1 = [1,5,7,9,10]
+ # array1 = [1,5,7,9,10]
 
 def find_element_index(array, value_to_find)
   # Add your solution here
@@ -15,7 +15,13 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  return array.max
+  # return array.max
+  array.lenth.times do |value1|
+    if array[value1] == array.max
+      return array[value1]
+    end
+    
+  end
 end
 
 def find_min_value(array)
@@ -23,4 +29,4 @@ def find_min_value(array)
   return array.min
 end
 # find_element_index(array1, 700)
-find_max_value(array1)
+# find_max_value(array1)
